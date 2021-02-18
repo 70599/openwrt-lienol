@@ -37,7 +37,10 @@ jobs:
         git config --global user.name "automator"
         
     - name: Load upstream commits
-      run: git pull origin main https://github.com/Lienol/openwrt.git --no-edit --strategy-option ours
+      env:
+        UPSTREAM: https://github.com/Lienol/openwrt.git
+        BRANCH: main
+      run: git pull $UPSTREAM $BRANCH --no-edit --strategy-option ours
 
     - name: Push Commits
       env:
