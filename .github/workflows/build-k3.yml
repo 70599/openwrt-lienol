@@ -96,6 +96,6 @@ jobs:
         uses: actions/upload-artifact@master
         with:
           name: OpenWrt firmware
-          # path: ./bin/targets/bcm53xx/generic/openwrt-bcm53xx-phicomm-k3-squashfs.trx
+          path: ./bin/targets/bcm53xx/generic/openwrt-bcm53xx-phicomm-k3-squashfs.trx
           # path: ./bin/targets/bcm53xx/generic/openwrt-bcm53xx-generic-phicomm-k3-squashfs.trx
-          path: ./bin/targets/bcm53xx/generic/openwrt-bcm53xx-generic-phicomm_k3-squashfs.trx
+          # path: ./bin/targets/bcm53xx/generic/openwrt-bcm53xx-generic-phicomm_k3-squashfs.trx
