@@ -492,7 +492,7 @@ define Device/tplink_tl-mr6400-v1
   DEVICE_MODEL := TL-MR6400
   DEVICE_VARIANT := v1
   TPLINK_HWID := 0x64000001
-  DEVICE_PACKAGES := kmod-usb2 kmod-usb-net-rndis kmod-usb-serial \
+  DEVICE_PACKAGES := kmod-usb2 kmod-usb-net-rndis \
 	kmod-usb-serial-option adb-enablemodem
   SUPPORTED_DEVICES += tl-mr6400
 endef
@@ -741,6 +741,15 @@ define Device/tplink_tl-wr810n-v2
   SUPPORTED_DEVICES += tl-wr810n-v2
 endef
 TARGET_DEVICES += tplink_tl-wr810n-v2
+
+define Device/tplink_tl-wr841hp-v3
+  $(Device/tplink-8mlzma)
+  SOC := qca9533
+  DEVICE_MODEL := TL-WR841HP
+  DEVICE_VARIANT := v3
+  TPLINK_HWID := 0x08411003
+endef
+TARGET_DEVICES += tplink_tl-wr841hp-v3
 
 define Device/tplink_tl-wr842n-v1
   $(Device/tplink-8m)
