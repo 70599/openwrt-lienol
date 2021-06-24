@@ -11,7 +11,7 @@ name: Merge-upstream
 on:
   push:
     branches: 
-      - 'main'
+      - main
   schedule:
     - cron: 0 */6 * * *
 
@@ -25,7 +25,7 @@ jobs:
     - name: Checkout
       uses: actions/checkout@master
       with:
-        ref: 'main'
+        ref: main
         fetch-depth: 0
         lfs: true
 
@@ -44,5 +44,5 @@ jobs:
 
     - name: Push Commits
       env:
-        DOWNSTREAM_BRANCH: 'main'
+        DOWNSTREAM_BRANCH: main
       run: git push origin $DOWNSTREAM_BRANCH
