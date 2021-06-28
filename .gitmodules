@@ -10,3 +10,9 @@
 [submodule "package/network/stun"]
 	path = package/network/stun
 	url = https://github.com/awe1p/stun.git
+[submodule "package/honwen/luci-app-shadowsocks-rust"]
+	path = package/honwen/luci-app-shadowsocks-rust
+	url = https://github.com/honwen/luci-app-shadowsocks-rust.git
+[submodule "package/honwen/shadowsocks-rust"]
+	path = package/honwen/shadowsocks-rust
+	url = https://github.com/honwen/openwrt-shadowsocks-rust.git
