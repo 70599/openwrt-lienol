@@ -7,9 +7,6 @@
 [submodule "package/honwen/shadowsocks-rust"]
 	path = package/honwen/shadowsocks-rust
 	url = https://github.com/honwen/openwrt-shadowsocks-rust.git
-[submodule "package/honwen/openwrt-dnsmasq-extra"]
-	path = package/honwen/openwrt-dnsmasq-extra
-	url = https://github.com/honwen/openwrt-dnsmasq-extra.git
 [submodule "package/lwz322/k3screenctrl_build"]
 	path = package/lwz322/k3screenctrl_build
 	url = https://github.com/lwz322/k3screenctrl_build.git
