@@ -1,18 +1,21 @@
-[submodule "package/lwz322/k3screenctrl_build"]
-	path = package/lwz322/k3screenctrl_build
-	url = https://github.com/lwz322/k3screenctrl_build.git
 [submodule "package/lwz322/luci-app-k3screenctrl"]
 	path = package/lwz322/luci-app-k3screenctrl
 	url = https://github.com/lwz322/luci-app-k3screenctrl.git
-[submodule "package/yichya/luci-app-xray"]
-	path = package/yichya/luci-app-xray
-	url = https://github.com/yichya/luci-app-xray.git
-[submodule "package/network/stun"]
-	path = package/network/stun
-	url = https://github.com/awe1p/stun.git
 [submodule "package/honwen/luci-app-shadowsocks-rust"]
 	path = package/honwen/luci-app-shadowsocks-rust
 	url = https://github.com/honwen/luci-app-shadowsocks-rust.git
 [submodule "package/honwen/shadowsocks-rust"]
 	path = package/honwen/shadowsocks-rust
 	url = https://github.com/honwen/openwrt-shadowsocks-rust.git
+[submodule "package/honwen/openwrt-dnsmasq-extra"]
+	path = package/honwen/openwrt-dnsmasq-extra
+	url = https://github.com/honwen/openwrt-dnsmasq-extra.git
+[submodule "package/lwz322/k3screenctrl_build"]
+	path = package/lwz322/k3screenctrl_build
+	url = https://github.com/lwz322/k3screenctrl_build.git
+[submodule "package/network/stun"]
+	path = package/network/stun
+	url = https://github.com/awe1p/stun.git
+[submodule "package/honwen/luci-app-xray"]
+	path = package/honwen/luci-app-xray
+	url = https://github.com/honwen/luci-app-xray.git
