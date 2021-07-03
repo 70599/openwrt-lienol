@@ -61,7 +61,7 @@ jobs:
           git pull --recurse-submodules --no-rebase
 
           ./scripts/feeds update -a
-          ./scripts/feeds install -a
+          ./scripts/feeds install -a -f
 
       - name: Generate configuration file
         run: |

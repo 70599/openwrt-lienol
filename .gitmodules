@@ -1,12 +1,6 @@
 [submodule "package/lwz322/luci-app-k3screenctrl"]
 	path = package/lwz322/luci-app-k3screenctrl
 	url = https://github.com/lwz322/luci-app-k3screenctrl.git
-[submodule "package/honwen/luci-app-shadowsocks-rust"]
-	path = package/honwen/luci-app-shadowsocks-rust
-	url = https://github.com/honwen/luci-app-shadowsocks-rust.git
-[submodule "package/honwen/shadowsocks-rust"]
-	path = package/honwen/shadowsocks-rust
-	url = https://github.com/honwen/openwrt-shadowsocks-rust.git
 [submodule "package/lwz322/k3screenctrl_build"]
 	path = package/lwz322/k3screenctrl_build
 	url = https://github.com/lwz322/k3screenctrl_build.git
