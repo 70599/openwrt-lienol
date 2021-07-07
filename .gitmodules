@@ -7,6 +7,9 @@
 [submodule "package/network/stun"]
 	path = package/network/stun
 	url = https://github.com/awe1p/stun.git
-[submodule "package/honwen/luci-app-xray"]
-	path = package/honwen/luci-app-xray
-	url = https://github.com/honwen/luci-app-xray.git
+[submodule "package/yichya/openwrt-xray"]
+	path = package/yichya/openwrt-xray
+	url = https://github.com/yichya/openwrt-xray
+[submodule "package/yichya/luci-app-xray"]
+	path = package/yichya/luci-app-xray
+	url = https://github.com/yichya/luci-app-xray.git
